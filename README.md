@@ -85,8 +85,9 @@ Enter a comment in the text box and click "Submit" to see toxicity scores.
 
 ### Orchestration script (optional)
 
-To run the entire pipeline - download and process dataset, train and evaluate:
+To run the entire pipeline i.e download and process dataset, train and evaluate:
 ```
 >> python run_pipeline.py
 ```
-This is not recommended as training take forever on a CPU. Recommed to use GPU or Kaggle notebooks. Each of the components of the pipeline is also an individual python script. 
+This is not recommended as training take forever on a CPU. It is recommended to use a GPU or Kaggle notebooks with free GPUs. \
+Each of the components of the pipeline is also an individual python script. So, you can download and process dataset on local, and train and evaluate on a server with GPU (e.g. Kaggle, or Colab).
