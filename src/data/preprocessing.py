@@ -39,6 +39,6 @@ def process_dataset(dataset_path: Union[str, Path], target_names: List) -> Path:
 
 
 if __name__ == '__main__':
-    dataset_path = Path(config.DATA_DIR) / 'raw/competitions/jigsaw-toxic-comment-classification-challenge'
+    dataset_path = Path(config.DATA_DIR) / 'raw/competitions' / 'jigsaw-toxic-comment-classification-challenge'
     target_names = ['toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate']
     process_dataset(dataset_path, target_names)
