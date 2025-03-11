@@ -3,8 +3,6 @@ import config
 import zipfile
 from typing import Union
 from pathlib import Path
-from src.data.preprocessing import clean_text
-import pandas as pd
 
 # Download dataset
 def fetch_competition_data(competition: str, path: Union[str, Path]) -> Path:
@@ -37,5 +35,4 @@ def unarchive_dataset(dataset_archive: Union[str, Path]):
 
 if __name__ == '__main__':
     dataset_dir = Path(config.DATA_DIR) / 'raw' / 'competitions'
-    dataset_dir.mkdir(parents=True, exist_ok=True)
     fetch_competition_data('jigsaw-toxic-comment-classification-challenge', path=dataset_dir)
