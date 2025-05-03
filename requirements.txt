@@ -1,6 +1,5 @@
 contractions==0.1.73
 datasets==3.3.2
-en_core_web_sm==3.8.0
 fastapi==0.115.11
 ipykernel==6.29.5
 kaggle==1.6.17
@@ -8,10 +7,9 @@ matplotlib==3.10.1
 numpy==2.2.3
 pandas==2.2.3
 pydantic==2.10.6
+torch==2.5.1
 scikit-learn==1.6.1
 seaborn==0.13.2
 spacy==3.8.2
-torch==2.5.1
 transformers==4.49.0
 uvicorn==0.34.0
--e .
