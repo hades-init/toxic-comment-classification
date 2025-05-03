@@ -60,6 +60,7 @@ Create and activate a virtual environment (use pip or conda):
 3. Install required packages:
 ```
 >> pip install -r requirements.txt
+>> python -m spacy download en_core_web_sm
 ```
 
 4. Download data 
